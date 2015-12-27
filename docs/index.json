@@ -1,0 +1,169 @@
+{
+  "name": "Philipp Eschenbach",
+  "info": {
+    "label": "Senior Developer",
+    "brief": "Full-stack developer with an emphasize on java based languages and love for groovy and grails!"
+  },
+  "contact": {
+    "email": "philipp@eschenbach.co",
+    "website": "https://eschenbach.co"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2019-02-14T15:16:05.024Z"
+  },
+  "location": {
+    "address": "Berlin, Germany"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "VP Engineering",
+        "employer": "uberall GmbH",
+        "summary": "Growing & Leading the Engineering Team at Uberall",
+        "current": true,
+        "start": "2018-08-01",
+        "url": "https://uberall.com",
+        "keywords": []
+      },
+      {
+        "position": "Founder and Full-stack developer",
+        "employer": "Sideproject: errbuddy",
+        "summary": "Helps developers to maintain their web application without constantly looking at log files and checking server statusses.",
+        "start": "2014-09-01",
+        "end": "2018-12-31",
+        "url": "https://errbuddy.net",
+        "keywords": [],
+        "highlights": [
+          "Backend: Grails, MySQL, Elasticsearch, Redis, Docker",
+          "Frontend: JS (ES6), React, Node, Webpack, Sass"
+        ]
+      },
+      {
+        "position": "Lead Backend Developer",
+        "employer": "uberall GmbH",
+        "summary": "Backend Development, Team Lead and responsible for server infrastructure and IT Security",
+        "start": "2013-07-01",
+        "end": "2018-07-30",
+        "url": "https://uberall.com",
+        "keywords": [],
+        "highlights": [
+          "Leading a Team of 7 backend developers",
+          "Setup of cloud infrastructure on AWS",
+          "Near zero downtime move to AWS",
+          "Setup Docker and Jenkins to enable continous development in staging systems"
+        ]
+      },
+      {
+        "position": "Senior Java Engineer",
+        "employer": "Webtrekk GmbH",
+        "summary": "Development of a proof-of-concept for using Webtrekks data to do real-time-bidding",
+        "start": "2013-05-01",
+        "end": "2013-06-30",
+        "url": "https://www.webtrekk.com",
+        "keywords": []
+      },
+      {
+        "position": "Senior Java Engineer",
+        "employer": "European Customer Rights Services GmbH",
+        "summary": "Full Stack Development from day 0",
+        "start": "2013-01-01",
+        "end": "2013-04-30",
+        "keywords": []
+      },
+      {
+        "position": "Java Engineer",
+        "employer": "Besser Betreut GmbH / care.com europe",
+        "summary": "Full Stack Development and Server administration",
+        "start": "2012-03-01",
+        "end": "2013-03-31",
+        "url": "https://betreut.de",
+        "keywords": [],
+        "highlights": [
+          "Migration from java (stripes, hibernate, spring) to grails 2.2",
+          "implemenation of basic devops principals",
+          "zero downtime server move from munich to frankfurt"
+        ]
+      },
+      {
+        "position": "Student Assistant",
+        "employer": "Lidl Kremmen",
+        "start": "2009-09-01",
+        "end": "2012-02-29",
+        "keywords": []
+      },
+      {
+        "position": "Student Assistant",
+        "employer": "Lidl Eggolsheim",
+        "start": "2007-12-01",
+        "end": "2009-08-31",
+        "keywords": []
+      },
+      {
+        "employer": "Freelancing Programmer",
+        "summary": "Website and Tool development for small businesses",
+        "start": "2001-01-01",
+        "end": "2007-12-31",
+        "keywords": []
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Development",
+        "skills": [
+          "Java",
+          "Groovy",
+          "Grails",
+          "HTML",
+          "CSS",
+          "JS"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "skills": [
+          "Ansible",
+          "Jenkins",
+          "AWS",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Server",
+        "skills": [
+          "Ubuntu",
+          "Docker",
+          "Tomcat7",
+          "Nginx",
+          "MySQL"
+        ]
+      }
+    ]
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/peh",
+      "user": "peh"
+    },
+    {
+      "label": "linkedin",
+      "network": "linkedin",
+      "url": "https://www.linkedin.com/profile/view?id=AAMAAA-vj78BH8V8eiNPceidtsXmYCIIlDCrvt4",
+      "user": "Philipp Eschenbach"
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ]
+}

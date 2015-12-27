@@ -1,0 +1,154 @@
+{
+  "basics": {
+    "name": "Philipp Eschenbach",
+    "label": "Senior Developer",
+    "summary": "Full-stack developer with an emphasize on java based languages and love for groovy and grails!",
+    "website": "https://eschenbach.co",
+    "email": "philipp@eschenbach.co",
+    "location": {
+      "address": "Berlin, Germany"
+    },
+    "profiles": [{
+      "network": "GitHub",
+      "username": "peh",
+      "url": "https://github.com/peh"
+    }, {
+      "network": "linkedin",
+      "username": "Philipp Eschenbach",
+      "url": "https://www.linkedin.com/profile/view?id=AAMAAA-vj78BH8V8eiNPceidtsXmYCIIlDCrvt4"
+    }]
+  },
+  "work": [{
+      "company": "uberall GmbH",
+      "website": "https://uberall.com",
+      "position": "VP Engineering",
+      "startDate": "2018-08-01",
+      "summary": "Growing & Leading the Engineering Team at Uberall"
+    },
+    {
+      "company": "uberall GmbH",
+      "website": "https://uberall.com",
+      "position": "Lead Backend Developer",
+      "startDate": "2013-07-01",
+      "endDate": "2018-07-30",
+      "summary": "Backend Development, Team Lead and responsible for server infrastructure and IT Security",
+      "highlights": [
+        "Leading a Team of 7 backend developers",
+        "Setup of cloud infrastructure on AWS",
+        "Near zero downtime move to AWS",
+        "Setup Docker and Jenkins to enable continous development in staging systems"
+      ],
+      "keywords": [
+        "grails",
+        "redis",
+        "mysql",
+        "elasticsearch",
+        "aws",
+        "ansible",
+        "devops",
+        "docker"
+      ]
+    }, {
+      "company": "Sideproject: errbuddy",
+      "position": "Founder and Full-stack developer",
+      "website": "https://errbuddy.net",
+      "startDate": "2014-09-01",
+      "endDate": "2018-12-31",
+      "summary": "Helps developers to maintain their web application without constantly looking at log files and checking server statusses.",
+      "highlights": [
+        "Backend: Grails, MySQL, Elasticsearch, Redis, Docker",
+        "Frontend: JS (ES6), React, Node, Webpack, Sass"
+      ],
+      "keywords": [
+        "grails",
+        "redis",
+        "mysql",
+        "elasticsearch",
+        "react",
+        "es6",
+        "node",
+        "sass",
+        "webpack"
+      ]
+    }, {
+      "company": "Webtrekk GmbH",
+      "website": "https://www.webtrekk.com",
+      "position": "Senior Java Engineer",
+      "startDate": "2013-05-01",
+      "endDate": "2013-06-30",
+      "summary": "Development of a proof-of-concept for using Webtrekks data to do real-time-bidding",
+      "keywords": [
+        "grails",
+        "redis"
+      ]
+    }, {
+      "company": "European Customer Rights Services GmbH",
+      "position": "Senior Java Engineer",
+      "startDate": "2013-01-01",
+      "endDate": "2013-04-30",
+      "summary": "Full Stack Development from day 0"
+    }, {
+      "company": "Besser Betreut GmbH / care.com europe",
+      "website": "https://betreut.de",
+      "position": "Java Engineer",
+      "startDate": "2012-03-01",
+      "endDate": "2013-03-31",
+      "summary": "Full Stack Development and Server administration",
+      "highlights": [
+        "Migration from java (stripes, hibernate, spring) to grails 2.2",
+        "implemenation of basic devops principals",
+        "zero downtime server move from munich to frankfurt"
+      ]
+    }, {
+      "company": "Lidl Kremmen",
+      "position": "Student Assistant",
+      "startDate": "2009-09-01",
+      "endDate": "2012-02-29"
+    }, {
+      "company": "Lidl Eggolsheim",
+      "position": "Student Assistant",
+      "startDate": "2007-12-01",
+      "endDate": "2009-08-31"
+    }, {
+      "company": "Freelancing Programmer",
+      "startDate": "2001-01-01",
+      "endDate": "2007-12-31",
+      "summary": "Website and Tool development for small businesses"
+    }
+  ],
+  "skills": [{
+    "name": "Development",
+    "keywords": [
+      "Java",
+      "Groovy",
+      "Grails",
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  }, {
+    "name": "DevOps",
+    "keywords": [
+      "Ansible",
+      "Jenkins",
+      "AWS",
+      "Docker"
+    ]
+  }, {
+    "name": "Server",
+    "keywords": [
+      "Ubuntu",
+      "Docker",
+      "Tomcat7",
+      "Nginx",
+      "MySQL"
+    ]
+  }],
+  "languages": [{
+    "language": "German",
+    "fluency": "Native speaker"
+  }, {
+    "language": "English",
+    "fluency": "Fluent"
+  }]
+}

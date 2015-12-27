@@ -1,0 +1,24 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "my cv",
+  "main": "index.js",
+  "scripts": {
+    "start": "hackmyresume build resume.json ./docs/index.all --theme ./node_modules/jsonresume-theme-slick"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peh/cv.git"
+  },
+  "author": "Philipp Eschenbach <philipp@errbuddy.net> (https://errbuddy.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peh/cv/issues"
+  },
+  "homepage": "https://github.com/peh/cv#readme",
+  "dependencies": {
+    "gh-pages-cli": "^0.2.0",
+    "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-slick": "git+https://github.com/peh/jsonresume-theme-slick.git#master"
+  }
+}
