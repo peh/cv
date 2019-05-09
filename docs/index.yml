@@ -1,11 +1,12 @@
 basics:
   name: 'Philipp Eschenbach'
-  label: 'Senior Developer'
-  summary: 'Full-stack developer with an emphasize on java based languages and love for groovy and grails!'
+  label: 'VP Engineering'
+  summary: 'Engineering Manager & Developer with an emphasize on java based languages and love for groovy, grails & micronaut'
   website: 'https://eschenbach.co'
   email: philipp@eschenbach.co
   location:
     address: 'Berlin, Germany'
+  picture: 'https://avatars1.githubusercontent.com/u/1596052'
   profiles:
     -
       network: GitHub

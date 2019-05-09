@@ -1,8 +1,9 @@
 {
   "name": "Philipp Eschenbach",
   "info": {
-    "label": "Senior Developer",
-    "brief": "Full-stack developer with an emphasize on java based languages and love for groovy and grails!"
+    "label": "VP Engineering",
+    "image": "https://avatars1.githubusercontent.com/u/1596052",
+    "brief": "Engineering Manager & Developer with an emphasize on java based languages and love for groovy, grails & micronaut"
   },
   "contact": {
     "email": "philipp@eschenbach.co",
@@ -10,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-02-14T15:16:05.024Z"
+    "modified": "2019-05-09T15:47:00.826Z"
   },
   "location": {
     "address": "Berlin, Germany"
