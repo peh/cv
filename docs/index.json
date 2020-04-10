@@ -3,7 +3,7 @@
   "info": {
     "label": "VP Engineering",
     "image": "https://avatars1.githubusercontent.com/u/1596052",
-    "brief": "Engineering Manager & Developer with an emphasize on java based languages and love for groovy, grails & micronaut"
+    "brief": "Manager & Developer with an emphasize on java based languages and love for groovy, grails & micronaut"
   },
   "contact": {
     "email": "philipp@eschenbach.co",
@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2019-05-09T15:47:00.826Z"
+    "modified": "2020-04-10T07:05:06.996Z"
   },
   "location": {
     "address": "Berlin, Germany"
@@ -21,11 +21,19 @@
       {
         "position": "VP Engineering",
         "employer": "uberall GmbH",
-        "summary": "Growing & Leading the Engineering Team at Uberall",
+        "summary": "Leading the Engineering Organisation at uberall with currently 40 develpoers.",
         "current": true,
         "start": "2018-08-01",
         "url": "https://uberall.com",
-        "keywords": []
+        "keywords": [],
+        "highlights": [
+          "Grew the organisation from 20ish to 40+ developers",
+          "Moved the organization from a classic Backend/Frontend setup to a squad & tribe structure.",
+          "Directly managing all Engineering Managers",
+          "Fully responsible for tech",
+          "Introduced microservices (micronaut)",
+          "Still haven't learned to write a good CV"
+        ]
       },
       {
         "position": "Founder and Full-stack developer",
@@ -43,7 +51,7 @@
       {
         "position": "Lead Backend Developer",
         "employer": "uberall GmbH",
-        "summary": "Backend Development, Team Lead and responsible for server infrastructure and IT Security",
+        "summary": "Backend Development, Team Lead and responsible for infrastructure and IT Security",
         "start": "2013-07-01",
         "end": "2018-07-30",
         "url": "https://uberall.com",
