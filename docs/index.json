@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2020-04-10T07:05:06.996Z"
+    "modified": "2021-09-09T07:28:13.859Z"
   },
   "location": {
     "address": "Berlin, Germany"
@@ -19,17 +19,29 @@
   "employment": {
     "history": [
       {
+        "position": "Chief Technology Officer",
+        "employer": "Culcha GmbH",
+        "summary": "Building an Edu-Tech App to help middle managers and their teams.",
+        "current": true,
+        "start": "2021-04-01",
+        "url": "https://culcha.com",
+        "keywords": [],
+        "highlights": [
+          "Still haven't learned to write a good CV"
+        ]
+      },
+      {
         "position": "VP Engineering",
         "employer": "uberall GmbH",
-        "summary": "Leading the Engineering Organisation at uberall with currently 40 develpoers.",
-        "current": true,
+        "summary": "Lead the Engineering Organisation at uberall with currently 40 develpoers.",
         "start": "2018-08-01",
+        "end": "2021-01-31",
         "url": "https://uberall.com",
         "keywords": [],
         "highlights": [
-          "Grew the organisation from 20ish to 40+ developers",
+          "Grew the organisation from 20ish to 60 developers",
           "Moved the organization from a classic Backend/Frontend setup to a squad & tribe structure.",
-          "Directly managing all Engineering Managers",
+          "Directly managed all Engineering Managers",
           "Fully responsible for tech",
           "Introduced microservices (micronaut)",
           "Still haven't learned to write a good CV"

@@ -9,30 +9,42 @@
       "address": "Berlin, Germany"
     },
     "picture": "https://avatars1.githubusercontent.com/u/1596052",
-    "profiles": [{
-      "network": "GitHub",
-      "username": "peh",
-      "url": "https://github.com/peh"
-    }, {
-      "network": "linkedin",
-      "username": "Philipp Eschenbach",
-      "url": "https://www.linkedin.com/profile/view?id=AAMAAA-vj78BH8V8eiNPceidtsXmYCIIlDCrvt4"
-    }]
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "peh",
+        "url": "https://github.com/peh"
+      },
+      {
+        "network": "linkedin",
+        "username": "Philipp Eschenbach",
+        "url": "https://www.linkedin.com/profile/view?id=AAMAAA-vj78BH8V8eiNPceidtsXmYCIIlDCrvt4"
+      }
+    ]
   },
-  "work": [{
+  "work": [
+    {
+      "company": "Culcha GmbH",
+      "website": "https://culcha.com",
+      "position": "Chief Technology Officer",
+      "startDate": "2021-04-01",
+      "summary": "Building an Edu-Tech App to help middle managers and their teams.",
+      "highlights": ["Still haven't learned to write a good CV"]
+    },
+    {
       "company": "uberall GmbH",
       "website": "https://uberall.com",
       "position": "VP Engineering",
       "startDate": "2018-08-01",
-      "summary": "Leading the Engineering Organisation at uberall with currently 40 develpoers.",
+      "endDate": "2021-01-31",
+      "summary": "Lead the Engineering Organisation at uberall with currently 40 develpoers.",
       "highlights": [
-        "Grew the organisation from 20ish to 40+ developers",
+        "Grew the organisation from 20ish to 60 developers",
         "Moved the organization from a classic Backend/Frontend setup to a squad & tribe structure.",
-        "Directly managing all Engineering Managers",
+        "Directly managed all Engineering Managers",
         "Fully responsible for tech",
         "Introduced microservices (micronaut)",
         "Still haven't learned to write a good CV"
-
       ]
     },
     {
@@ -58,7 +70,8 @@
         "devops",
         "docker"
       ]
-    }, {
+    },
+    {
       "company": "Sideproject: errbuddy",
       "position": "Founder and Full-stack developer",
       "website": "https://errbuddy.net",
@@ -80,24 +93,24 @@
         "sass",
         "webpack"
       ]
-    }, {
+    },
+    {
       "company": "Webtrekk GmbH",
       "website": "https://www.webtrekk.com",
       "position": "Senior Java Engineer",
       "startDate": "2013-05-01",
       "endDate": "2013-06-30",
       "summary": "Development of a proof-of-concept for using Webtrekks data to do real-time-bidding",
-      "keywords": [
-        "grails",
-        "redis"
-      ]
-    }, {
+      "keywords": ["grails", "redis"]
+    },
+    {
       "company": "European Customer Rights Services GmbH",
       "position": "Senior Java Engineer",
       "startDate": "2013-01-01",
       "endDate": "2013-04-30",
       "summary": "Full Stack Development from day 0"
-    }, {
+    },
+    {
       "company": "Besser Betreut GmbH / care.com europe",
       "website": "https://betreut.de",
       "position": "Java Engineer",
@@ -109,56 +122,48 @@
         "implemenation of basic devops principals",
         "zero downtime server move from munich to frankfurt"
       ]
-    }, {
+    },
+    {
       "company": "Lidl Kremmen",
       "position": "Student Assistant",
       "startDate": "2009-09-01",
       "endDate": "2012-02-29"
-    }, {
+    },
+    {
       "company": "Lidl Eggolsheim",
       "position": "Student Assistant",
       "startDate": "2007-12-01",
       "endDate": "2009-08-31"
-    }, {
+    },
+    {
       "company": "Freelancing Programmer",
       "startDate": "2001-01-01",
       "endDate": "2007-12-31",
       "summary": "Website and Tool development for small businesses"
     }
   ],
-  "skills": [{
-    "name": "Development",
-    "keywords": [
-      "Java",
-      "Groovy",
-      "Grails",
-      "HTML",
-      "CSS",
-      "JS"
-    ]
-  }, {
-    "name": "DevOps",
-    "keywords": [
-      "Ansible",
-      "Jenkins",
-      "AWS",
-      "Docker"
-    ]
-  }, {
-    "name": "Server",
-    "keywords": [
-      "Ubuntu",
-      "Docker",
-      "Tomcat7",
-      "Nginx",
-      "MySQL"
-    ]
-  }],
-  "languages": [{
-    "language": "German",
-    "fluency": "Native speaker"
-  }, {
-    "language": "English",
-    "fluency": "Fluent"
-  }]
+  "skills": [
+    {
+      "name": "Development",
+      "keywords": ["Java", "Groovy", "Grails", "HTML", "CSS", "JS"]
+    },
+    {
+      "name": "DevOps",
+      "keywords": ["Ansible", "Jenkins", "AWS", "Docker"]
+    },
+    {
+      "name": "Server",
+      "keywords": ["Ubuntu", "Docker", "Tomcat7", "Nginx", "MySQL"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ]
 }
