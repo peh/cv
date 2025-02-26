@@ -1,9 +1,9 @@
 {
   "name": "Philipp Eschenbach",
   "info": {
-    "label": "VP Engineering",
+    "label": "Chief Technology Officer",
     "image": "https://avatars1.githubusercontent.com/u/1596052",
-    "brief": "Manager & Developer with an emphasize on java based languages and love for groovy, grails & micronaut"
+    "brief": "CTO with expertise in Java, Kotlin, Micronaut, AI, and cloud-native architectures. Passionate about scaling teams and modernizing tech stacks."
   },
   "contact": {
     "email": "philipp@eschenbach.co",
@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2021-09-09T07:28:13.859Z"
+    "modified": "2025-02-26T12:54:56.171Z"
   },
   "location": {
     "address": "Berlin, Germany"
@@ -20,112 +20,60 @@
     "history": [
       {
         "position": "Chief Technology Officer",
-        "employer": "Culcha GmbH",
-        "summary": "Building an Edu-Tech App to help middle managers and their teams.",
+        "employer": "Legal Hero",
+        "summary": "Building and scaling the engineering team, modernizing tech stack, and driving AI initiatives.",
         "current": true,
-        "start": "2021-04-01",
-        "url": "https://culcha.com",
+        "start": "2023-11-01",
         "keywords": [],
         "highlights": [
-          "Still haven't learned to write a good CV"
+          "Scaled the engineering \"team\" of 1 full-stack Developer, growing it to 12 developers with strong expertise in Backend, Frontend, AI and DevOps.",
+          "Migrated from a monolithic Groovy (Grails) Application to a modern microservices setup using Kotlin and Micronaut, significantly improving performance, scalability, and maintainability.",
+          "Implemented a Kubernetes (K8s) cluster, improving system reliability and scalability while reducing deployment complexity.",
+          "Defined and executed the technology roadmap, aligning engineering efforts with business objectives.",
+          "Launched AI-driven automation projects, including self-trained models to support operational teams and enhance platform effectiveness."
+        ]
+      },
+      {
+        "position": "Chief Technology Officer, (late) Co-Foudner and Managing Director",
+        "employer": "Culcha GmbH",
+        "summary": "Led technical development, moving the platform from MVP to production-ready status.",
+        "current": true,
+        "start": "2021-04-01",
+        "keywords": [],
+        "highlights": [
+          "Transitioned the product from an MVP to a fully scalable, production-ready application, ensuring high availability and performance.",
+          "Designed and implemented a backend architecture using Kotlin and Micronaut, reducing response times and improving system maintainability.",
+          "Led a product organization of 8 people (engineering, product, design), improving cross-functional collaboration and accelerating development speed.",
+          "Developed and integrated predictive analytics to enhance user engagement and content creation."
         ]
       },
       {
         "position": "VP Engineering",
         "employer": "uberall GmbH",
-        "summary": "Lead the Engineering Organisation at uberall with currently 40 develpoers.",
+        "summary": "Scaled the engineering team and introduced microservices architecture.",
         "start": "2018-08-01",
         "end": "2021-01-31",
-        "url": "https://uberall.com",
         "keywords": [],
         "highlights": [
-          "Grew the organisation from 20ish to 60 developers",
-          "Moved the organization from a classic Backend/Frontend setup to a squad & tribe structure.",
-          "Directly managed all Engineering Managers",
-          "Fully responsible for tech",
-          "Introduced microservices (micronaut)",
-          "Still haven't learned to write a good CV"
-        ]
-      },
-      {
-        "position": "Founder and Full-stack developer",
-        "employer": "Sideproject: errbuddy",
-        "summary": "Helps developers to maintain their web application without constantly looking at log files and checking server statusses.",
-        "start": "2014-09-01",
-        "end": "2018-12-31",
-        "url": "https://errbuddy.net",
-        "keywords": [],
-        "highlights": [
-          "Backend: Grails, MySQL, Elasticsearch, Redis, Docker",
-          "Frontend: JS (ES6), React, Node, Webpack, Sass"
+          "Grew the engineering team from 20 to 60 developers, improving hiring processes and fostering a strong engineering culture.",
+          "Transitioned the development structure from a traditional backend/frontend model to a squad-based engineering setup, increasing agility and cross-team collaboration.",
+          "Led all Engineering Managers, ensuring effective leadership and alignment across teams.",
+          "Introduced microservices with Micronaut, reducing system complexity and improving scalability."
         ]
       },
       {
         "position": "Lead Backend Developer",
         "employer": "uberall GmbH",
-        "summary": "Backend Development, Team Lead and responsible for infrastructure and IT Security",
+        "summary": "Led the backend team and modernized infrastructure.",
         "start": "2013-07-01",
         "end": "2018-07-30",
-        "url": "https://uberall.com",
         "keywords": [],
         "highlights": [
-          "Leading a Team of 7 backend developers",
-          "Setup of cloud infrastructure on AWS",
-          "Near zero downtime move to AWS",
-          "Setup Docker and Jenkins to enable continous development in staging systems"
+          "Managed a team of 7 backend developers, fostering growth and technical excellence.",
+          "Designed and deployed cloud infrastructure on AWS, improving system resilience and reducing costs.",
+          "Executed a zero-downtime migration to AWS, ensuring smooth service transition without impact on customers.",
+          "Implemented Docker and Jenkins-based CI/CD pipelines, significantly accelerating deployment cycles."
         ]
-      },
-      {
-        "position": "Senior Java Engineer",
-        "employer": "Webtrekk GmbH",
-        "summary": "Development of a proof-of-concept for using Webtrekks data to do real-time-bidding",
-        "start": "2013-05-01",
-        "end": "2013-06-30",
-        "url": "https://www.webtrekk.com",
-        "keywords": []
-      },
-      {
-        "position": "Senior Java Engineer",
-        "employer": "European Customer Rights Services GmbH",
-        "summary": "Full Stack Development from day 0",
-        "start": "2013-01-01",
-        "end": "2013-04-30",
-        "keywords": []
-      },
-      {
-        "position": "Java Engineer",
-        "employer": "Besser Betreut GmbH / care.com europe",
-        "summary": "Full Stack Development and Server administration",
-        "start": "2012-03-01",
-        "end": "2013-03-31",
-        "url": "https://betreut.de",
-        "keywords": [],
-        "highlights": [
-          "Migration from java (stripes, hibernate, spring) to grails 2.2",
-          "implemenation of basic devops principals",
-          "zero downtime server move from munich to frankfurt"
-        ]
-      },
-      {
-        "position": "Student Assistant",
-        "employer": "Lidl Kremmen",
-        "start": "2009-09-01",
-        "end": "2012-02-29",
-        "keywords": []
-      },
-      {
-        "position": "Student Assistant",
-        "employer": "Lidl Eggolsheim",
-        "start": "2007-12-01",
-        "end": "2009-08-31",
-        "keywords": []
-      },
-      {
-        "employer": "Freelancing Programmer",
-        "summary": "Website and Tool development for small businesses",
-        "start": "2001-01-01",
-        "end": "2007-12-31",
-        "keywords": []
       }
     ]
   },
@@ -134,31 +82,53 @@
       {
         "name": "Development",
         "skills": [
+          "Kotlin",
           "Java",
           "Groovy",
           "Grails",
-          "HTML",
-          "CSS",
-          "JS"
+          "React",
+          "TypeScript",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Architecture & Infrastructure",
+        "skills": [
+          "Microservices",
+          "Micronaut",
+          "Spring Boot",
+          "Event-Driven Architectures",
+          "Scalable Systems"
         ]
       },
       {
         "name": "DevOps",
         "skills": [
-          "Ansible",
-          "Jenkins",
+          "Kubernetes",
           "AWS",
-          "Docker"
+          "Docker",
+          "Terraform",
+          "CI/CD",
+          "Jenkins",
+          "GitHub Actions"
         ]
       },
       {
-        "name": "Server",
+        "name": "AI & Data Engineering",
         "skills": [
-          "Ubuntu",
-          "Docker",
-          "Tomcat7",
-          "Nginx",
-          "MySQL"
+          "AI/ML Model Training",
+          "Predictive Analytics",
+          "NLP",
+          "Data Pipelines"
+        ]
+      },
+      {
+        "name": "Leadership & Strategy",
+        "skills": [
+          "Engineering Leadership",
+          "Scaling Teams",
+          "Agile & Squad-Based Structures",
+          "Technology Roadmaps"
         ]
       }
     ]
