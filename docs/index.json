@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2025-02-26T12:54:56.171Z"
+    "modified": "2025-02-26T12:57:28.040Z"
   },
   "location": {
     "address": "Berlin, Germany"
@@ -20,7 +20,7 @@
     "history": [
       {
         "position": "Chief Technology Officer",
-        "employer": "Legal Hero",
+        "employer": "Legal Hero GmbH",
         "summary": "Building and scaling the engineering team, modernizing tech stack, and driving AI initiatives.",
         "current": true,
         "start": "2023-11-01",
