@@ -27,7 +27,7 @@
       "company": "Mercanis (CdC3 GmbH)",
       "position": "VP Engineering & AI",
       "url": "https://mercanis.com",
-      "startDate": "2026-11-01",
+      "startDate": "2025-11-01",
       "summary": "Leading engineering for an enterprise procurement platform, doubling the team and launching a next-generation agentic AI platform.",
       "highlights": [
         "Doubled the engineering organization from ~20 to ~40 engineers within the first six months, while raising the hiring bar and strengthening engineering culture.",
@@ -41,7 +41,7 @@
       "position": "Chief Technology Officer",
       "url": "https://legalhero.com",
       "startDate": "2023-11-01",
-      "endDate": "2026-10-31",
+      "endDate": "2025-10-31",
       "summary": "Building and scaling the engineering team, modernizing tech stack, and driving AI initiatives.",
       "highlights": [
         "Scaled the engineering \"team\" of 1 full-stack Developer, growing it to 12 developers with strong expertise in Backend, Frontend, AI and DevOps.",
@@ -53,7 +53,7 @@
     },
     {
       "company": "Culcha GmbH",
-      "position": "Chief Technology Officer, (late) Co-Foudner and Managing Director",
+      "position": "Chief Technology Officer, (late) Co-Founder and Managing Director",
       "url": "https://culcha.com",
       "startDate": "2021-04-01",
       "summary": "Led technical development, moving the platform from MVP to production-ready status.",
@@ -137,7 +137,6 @@
         "LLM Agents",
         "LangChain",
         "LangGraph",
-        "deepagents",
         "MCP (Model Context Protocol)",
         "RAG",
         "Vector Databases",
