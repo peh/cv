@@ -11,7 +11,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2026-07-14T20:28:56.632Z"
+    "modified": "2026-07-14T20:31:33.755Z"
   },
   "location": {
     "address": "Berlin, Germany"
@@ -21,7 +21,7 @@
       {
         "position": "VP Engineering & AI",
         "employer": "Mercanis (CdC3 GmbH)",
-        "summary": "Leading engineering and product for an enterprise procurement platform, doubling the team and launching a next-generation agentic AI platform.",
+        "summary": "Leading engineering for an enterprise procurement platform, doubling the team and launching a next-generation agentic AI platform.",
         "current": true,
         "start": "2026-11-01",
         "keywords": [],
