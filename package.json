@@ -4,7 +4,9 @@
   "description": "my cv",
   "main": "index.js",
   "scripts": {
-    "start": "hackmyresume build resume.json ./docs/index.all --theme ./node_modules/jsonresume-theme-slick"
+    "build:html": "hackmyresume build resume.json TO ./docs/index.html ./docs/index.json ./docs/index.yml --theme ./node_modules/jsonresume-theme-slick",
+    "build:pdf": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=./docs/index.pdf \"file://$PWD/docs/index.html\"",
+    "start": "npm run build:html && npm run build:pdf"
   },
   "repository": {
     "type": "git",
