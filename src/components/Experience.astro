@@ -1,0 +1,23 @@
+---
+import { formatRange } from '../lib/format.js';
+const { work } = Astro.props;
+---
+<div class="experience">
+  {work.map((job) => (
+    <article class="job">
+      <div class="job-head">
+        <h3 class="job-company">
+          {job.url ? <a href={job.url}>{job.company}</a> : job.company}
+        </h3>
+        <span class="job-dates">{formatRange(job.startDate, job.endDate)}</span>
+      </div>
+      <p class="job-position">{job.position}</p>
+      {job.summary && <p class="job-summary">{job.summary}</p>}
+      {job.highlights?.length > 0 && (
+        <ul class="highlights">
+          {job.highlights.map((h) => <li>{h}</li>)}
+        </ul>
+      )}
+    </article>
+  ))}
+</div>

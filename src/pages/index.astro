@@ -1,0 +1,39 @@
+---
+import resume from '../../resume.json';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Section from '../components/Section.astro';
+import Experience from '../components/Experience.astro';
+import Skills from '../components/Skills.astro';
+import Languages from '../components/Languages.astro';
+
+const { basics, work, skills, languages } = resume;
+const title = `${basics.name} — ${basics.label}`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={basics.summary} />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>" />
+  </head>
+  <body>
+    <main class="page">
+      <Header basics={basics} />
+
+      <Section title="Experience">
+        <Experience work={work} />
+      </Section>
+
+      <Section title="Skills">
+        <Skills skills={skills} />
+      </Section>
+
+      <Section title="Languages">
+        <Languages languages={languages} />
+      </Section>
+    </main>
+  </body>
+</html>

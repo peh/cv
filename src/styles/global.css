@@ -1,0 +1,291 @@
+:root {
+  --ink: #17202e;
+  --muted: #56617a;
+  --faint: #8b95ab;
+  --accent: #2f5bd7;
+  --accent-soft: #eef2fd;
+  --rule: #e6e9f0;
+  --bg: #ffffff;
+
+  --font: "Inter", ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --page-width: 46rem;
+  --gap: 1.7rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background: #f4f6fa;
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
+}
+
+/* ---- Page shell ---- */
+.page {
+  max-width: var(--page-width);
+  margin: 2.5rem auto;
+  padding: 3rem 3.25rem;
+  background: var(--bg);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(20, 30, 50, 0.04),
+    0 12px 40px rgba(20, 30, 50, 0.08);
+}
+
+/* ---- Header ---- */
+.header {
+  margin-bottom: 2.1rem;
+}
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.avatar {
+  flex: none;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+.identity-text {
+  min-width: 0;
+}
+.name {
+  margin: 0;
+  font-size: 2.35rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+}
+.label {
+  margin: 0.45rem 0 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.contact {
+  list-style: none;
+  margin: 1.15rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.contact li,
+.contact a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex: none;
+  color: var(--faint);
+}
+
+.summary {
+  margin: 1.35rem 0 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #333c50;
+  max-width: 38rem;
+}
+
+/* ---- Sections ---- */
+.section {
+  margin-top: 2rem;
+}
+.section-title {
+  margin: 0 0 1.15rem;
+  padding-bottom: 0.4rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border-bottom: 1.5px solid var(--rule);
+}
+
+/* ---- Experience ---- */
+.job {
+  margin-bottom: 1.5rem;
+}
+.job:last-child {
+  margin-bottom: 0;
+}
+.job-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+.job-company {
+  margin: 0;
+  font-size: 1.06rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.job-dates {
+  flex: none;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.job-position {
+  margin: 0.1rem 0 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+.job-summary {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.highlights {
+  margin: 0.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.highlights li {
+  position: relative;
+  padding-left: 1.15rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.highlights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.55;
+}
+
+/* ---- Skills ---- */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.15rem 2rem;
+}
+.skill-group:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+.skill-name {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.skill-tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.skill-tags li {
+  font-size: 0.78rem;
+  color: #37415a;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: #fafbfe;
+}
+
+/* ---- Languages ---- */
+.languages {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 2.5rem;
+}
+.languages li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+}
+.lang-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.lang-fluency {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* ---- Print / PDF ---- */
+@page {
+  size: A4;
+  margin: 14mm 15mm;
+}
+
+@media print {
+  body {
+    background: #fff;
+    font-size: 10.5pt;
+  }
+  .page {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  a {
+    color: inherit;
+  }
+  /* Keep individual entries and skill groups intact across page breaks,
+     but let long sections (Experience) flow naturally so the first page
+     fills instead of pushing the whole section to page 2. */
+  .job,
+  .skill-group {
+    break-inside: avoid;
+  }
+  .section-title {
+    break-after: avoid;
+  }
+  .skill-tags li {
+    background: #fff;
+  }
+}

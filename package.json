@@ -1,12 +1,15 @@
 {
   "name": "cv",
-  "version": "1.0.0",
-  "description": "my cv",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Philipp Eschenbach — CV. Static site + PDF generated from resume.json.",
+  "type": "module",
   "scripts": {
-    "build:html": "hackmyresume build resume.json TO ./docs/index.html ./docs/index.json ./docs/index.yml --theme ./node_modules/jsonresume-theme-slick",
-    "build:pdf": "\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=./docs/index.pdf \"file://$PWD/docs/index.html\"",
-    "start": "npm run build:html && npm run build:pdf"
+    "dev": "astro dev",
+    "build:html": "astro build",
+    "build:pdf": "node scripts/pdf.mjs",
+    "build": "npm run build:html && npm run build:pdf",
+    "start": "npm run build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
@@ -18,9 +21,7 @@
     "url": "https://github.com/peh/cv/issues"
   },
   "homepage": "https://github.com/peh/cv#readme",
-  "dependencies": {
-    "gh-pages-cli": "^0.2.0",
-    "hackmyresume": "^1.9.0-beta",
-    "jsonresume-theme-slick": "git+https://github.com/peh/jsonresume-theme-slick.git#master"
+  "devDependencies": {
+    "astro": "^5.13.0"
   }
 }

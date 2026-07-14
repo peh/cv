@@ -1,0 +1,13 @@
+---
+const { skills } = Astro.props;
+---
+<div class="skills">
+  {skills.map((group) => (
+    <div class="skill-group">
+      <h3 class="skill-name">{group.name}</h3>
+      <ul class="skill-tags">
+        {group.keywords.map((kw) => <li>{kw}</li>)}
+      </ul>
+    </div>
+  ))}
+</div>

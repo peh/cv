@@ -1,0 +1,45 @@
+---
+// Embed the headshot as a base64 data URI at build time (Vite's ?inline) so the
+// page — and the headless-Chrome PDF — stay fully self-contained, no runtime fetch.
+import avatar from '../assets/avatar.jpg?inline';
+import Icon from './Icon.astro';
+const { basics } = Astro.props;
+
+const find = (network) =>
+  basics.profiles?.find(
+    (p) => p.network?.toLowerCase() === network,
+  );
+const github = find('github');
+const linkedin = find('linkedin');
+
+const cleanUrl = (url) => url.replace(/^https?:\/\//, '').replace(/\/$/, '');
+---
+<header class="header">
+  <div class="identity">
+    <img class="avatar" src={avatar} alt={basics.name} width="96" height="96" />
+    <div class="identity-text">
+      <h1 class="name">{basics.name}</h1>
+      <p class="label">{basics.label}</p>
+
+      <ul class="contact">
+        {basics.location?.address && (
+          <li><Icon name="location" /><span>{basics.location.address}</span></li>
+        )}
+        {basics.email && (
+          <li><a href={`mailto:${basics.email}`}><Icon name="mail" /><span>{basics.email}</span></a></li>
+        )}
+        {basics.website && (
+          <li><a href={basics.website}><Icon name="globe" /><span>{cleanUrl(basics.website)}</span></a></li>
+        )}
+        {github && (
+          <li><a href={github.url}><Icon name="github" /><span>{cleanUrl(github.url)}</span></a></li>
+        )}
+        {linkedin && (
+          <li><a href={linkedin.url}><Icon name="linkedin" /><span>LinkedIn</span></a></li>
+        )}
+      </ul>
+    </div>
+  </div>
+
+  {basics.summary && <p class="summary">{basics.summary}</p>}
+</header>

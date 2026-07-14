@@ -97,13 +97,16 @@
     {
       "name": "Development",
       "keywords": [
+        "TypeScript",
+        "Python",
         "Kotlin",
         "Java",
-        "Groovy",
-        "Grails",
         "React",
-        "TypeScript",
-        "Node.js"
+        "Next.js",
+        "Node.js",
+        "NestJS",
+        "Groovy",
+        "Grails"
       ]
     },
     {
@@ -126,6 +129,21 @@
         "CI/CD",
         "Jenkins",
         "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Agentic AI",
+      "keywords": [
+        "LLM Agents",
+        "LangChain",
+        "LangGraph",
+        "deepagents",
+        "MCP (Model Context Protocol)",
+        "RAG",
+        "Vector Databases",
+        "LLM Observability",
+        "Prompt Engineering",
+        "Agent Orchestration"
       ]
     },
     {

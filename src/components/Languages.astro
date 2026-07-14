@@ -1,0 +1,11 @@
+---
+const { languages } = Astro.props;
+---
+<ul class="languages">
+  {languages.map((lang) => (
+    <li>
+      <span class="lang-name">{lang.language}</span>
+      <span class="lang-fluency">{lang.fluency}</span>
+    </li>
+  ))}
+</ul>

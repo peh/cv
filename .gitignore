@@ -30,3 +30,7 @@ node_modules
 .publish/
 out/
 .DS_Store
+
+# Astro
+.astro/
+dist/
