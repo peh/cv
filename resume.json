@@ -24,10 +24,24 @@
   },
   "work": [
     {
+      "company": "Mercanis (CdC3 GmbH)",
+      "position": "VP Engineering & AI",
+      "url": "https://mercanis.com",
+      "startDate": "2026-11-01",
+      "summary": "Leading engineering and product for an enterprise procurement platform, doubling the team and launching a next-generation agentic AI platform.",
+      "highlights": [
+        "Doubled the engineering organization from ~20 to ~40 engineers within the first six months, while raising the hiring bar and strengthening engineering culture.",
+        "Conceived and launched a new agentic AI platform, establishing the foundation for the company's next generation of intelligent procurement products.",
+        "Championed Agentic Engineering practices across the organization, embedding AI-assisted development into everyday workflows and dramatically accelerating delivery velocity.",
+        "Partnered closely with sales and delivery teams to win and onboard enterprise customers, driving technical pre-sales, solution design, and complex integration processes."
+      ]
+    },
+    {
       "company": "Legal Hero GmbH",
       "position": "Chief Technology Officer",
       "url": "https://legalhero.com",
       "startDate": "2023-11-01",
+      "endDate": "2026-10-31",
       "summary": "Building and scaling the engineering team, modernizing tech stack, and driving AI initiatives.",
       "highlights": [
         "Scaled the engineering \"team\" of 1 full-stack Developer, growing it to 12 developers with strong expertise in Backend, Frontend, AI and DevOps.",
@@ -82,23 +96,55 @@
   "skills": [
     {
       "name": "Development",
-      "keywords": ["Kotlin", "Java", "Groovy", "Grails", "React", "TypeScript", "Node.js"]
+      "keywords": [
+        "Kotlin",
+        "Java",
+        "Groovy",
+        "Grails",
+        "React",
+        "TypeScript",
+        "Node.js"
+      ]
     },
     {
       "name": "Architecture & Infrastructure",
-      "keywords": ["Microservices", "Micronaut", "Spring Boot", "Event-Driven Architectures", "Scalable Systems"]
+      "keywords": [
+        "Microservices",
+        "Micronaut",
+        "Spring Boot",
+        "Event-Driven Architectures",
+        "Scalable Systems"
+      ]
     },
     {
       "name": "DevOps",
-      "keywords": ["Kubernetes", "AWS", "Docker", "Terraform", "CI/CD", "Jenkins", "GitHub Actions"]
+      "keywords": [
+        "Kubernetes",
+        "AWS",
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Jenkins",
+        "GitHub Actions"
+      ]
     },
     {
       "name": "AI & Data Engineering",
-      "keywords": ["AI/ML Model Training", "Predictive Analytics", "NLP", "Data Pipelines"]
+      "keywords": [
+        "AI/ML Model Training",
+        "Predictive Analytics",
+        "NLP",
+        "Data Pipelines"
+      ]
     },
     {
       "name": "Leadership & Strategy",
-      "keywords": ["Engineering Leadership", "Scaling Teams", "Agile & Squad-Based Structures", "Technology Roadmaps"]
+      "keywords": [
+        "Engineering Leadership",
+        "Scaling Teams",
+        "Agile & Squad-Based Structures",
+        "Technology Roadmaps"
+      ]
     }
   ],
   "languages": [
@@ -112,4 +158,3 @@
     }
   ]
 }
-
